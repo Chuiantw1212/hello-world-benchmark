@@ -1,10 +1,10 @@
 {
-  "name": "hyper-express",
+  "name": "express",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
-    "benchmark": "autocannon -c 2500 -d 30 -p 4 http://localhost:80",
+    "benchmark": "autocannon -c 2500 -d 30 -p 4 http://localhost:3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "hyper-express": "^6.16.4"
+    "express": "^4.21.0"
   },
   "devDependencies": {
     "autocannon": "^7.15.0"
