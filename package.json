@@ -1,19 +1,18 @@
 {
-  "name": "express",
+  "name": "hello-world-benchmark",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
-    "benchmark": "autocannon http://localhost:3000",
+    "vertx": "autocannon http://localhost:8888",
+    "hyper": "autocannon http://localhost:80",
+    "express": "autocannon http://localhost:3000",
+    "blazor": "autocannon http://localhost:3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "express": "^4.21.0"
-  },
   "devDependencies": {
     "autocannon": "^7.15.0"
   }
