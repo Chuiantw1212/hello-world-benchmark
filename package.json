@@ -6,7 +6,9 @@
     "vertx": "autocannon http://localhost:8888",
     "hyper": "autocannon http://localhost:80",
     "express": "autocannon http://localhost:3000",
+    "fastify": "autocannon http://localhost:3000",
     "blazor": "autocannon http://localhost:3000",
+    ".net": "autocannon https://localhost:7278/WeatherForecast",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,5 +17,8 @@
   "description": "",
   "devDependencies": {
     "autocannon": "^7.15.0"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
   }
 }
