@@ -8,6 +8,7 @@
     "express": "autocannon http://localhost:3000",
     "fastify": "autocannon http://localhost:3000",
     "blazor": "autocannon http://localhost:3000",
+    "elysia": "autocannon http://localhost:3000",
     ".net": "autocannon https://localhost:7278/WeatherForecast",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
